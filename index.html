@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>QRize - Sistema de Gestão de Quiosques</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-blue-800 shadow">
+    <div class="max-w-6xl mx-auto p-4 flex justify-between items-center">
+      <img src="logo.png" alt="Logo QRize" class="h-28 object-contain" />
+      <span class="text-sm text-white">Gestão prática para quiosques</span>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-blue-600 text-white py-16">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h2 class="text-4xl font-bold mb-4">Controle total do seu quiosque na palma da mão</h2>
+      <p class="text-lg mb-6">Reposição via QR Code, vendas rápidas, conferência de estoque e controle de caixa — Tudo integrado!</p>
+      <a href="#contato" class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition">Fale conosco</a>
+    </div>
+  </section>
+
+  <!-- Funcionalidades -->
+  <section class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl font-bold mb-10 text-center">Funcionalidades</h3>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div>
+          <h4 class="font-semibold text-lg">📦 Reposição via QR Code</h4>
+          <p>Leitura instantânea e atualização automática no estoque, direto do Google Sheets.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-lg">🛒 Vendas com bipagem</h4>
+          <p>Agilidade na operação e prontidão para emissão de nota fiscal (sem Bling!).</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-lg">📊 Relatórios completos</h4>
+          <p>Relatórios de reposição, conferência (o que bipou e não bipou) e gestão de estoque.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-lg">💰 Controle de caixa</h4>
+          <p>Abertura, fechamento, sangrias e relatório automático para o administrador.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vantagens -->
+  <section class="py-16 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl font-bold mb-10 text-center">Por que escolher o QRize?</h3>
+      <ul class="grid md:grid-cols-3 gap-6 text-center text-lg">
+        <li class="bg-white p-6 rounded shadow">🚀 Rápida implementação</li>
+        <li class="bg-white p-6 rounded shadow">🔒 Controle centralizado por quiosque</li>
+        <li class="bg-white p-6 rounded shadow">💸 Sem custo extra por emissão de NF</li>
+        <li class="bg-white p-6 rounded shadow">📱 Interface intuitiva</li>
+        <li class="bg-white p-6 rounded shadow">📈 Acompanhamento em tempo real</li>
+        <li class="bg-white p-6 rounded shadow">💡 Reduza custos operacionais com um sistema tudo-em-um</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Plano de Preços -->
+  <section class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-10">Plano de Preços</h3>
+      <div class="grid gap-8 md:grid-cols-3">
+        
+        <!-- Plano Essencial -->
+        <div class="border rounded-lg shadow p-6 bg-gray-50">
+          <h4 class="text-xl font-bold mb-2">QRize Essencial</h4>
+          <p class="text-green-600 text-2xl font-bold mb-4">R$ 99,90<span class="text-base text-gray-600">/mês</span></p>
+          <ul class="text-left space-y-2 mb-6 text-sm">
+            <li>✔ Reposição via QR Code</li>
+            <li>✔ Vendas com bipagem rápida</li>
+            <li>✔ Relatórios básicos de estoque e reposição</li>
+            <li>✔ Controle de caixa com abertura</li>
+          </ul>
+          <a href="#contato" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Contratar</a>
+        </div>
+
+        <!-- Plano Pro (destaque) -->
+        <div class="border-2 border-blue-600 rounded-lg shadow-lg p-6 bg-white relative">
+          <span class="absolute -top-4 left-1/2 -translate-x-1/2 bg-yellow-400 text-black text-xs font-bold px-3 py-1 rounded-full shadow">Mais vendido</span>
+          <h4 class="text-xl font-bold mb-2">QRize Pro</h4>
+          <p class="text-green-600 text-2xl font-bold mb-4">R$ 159,90<span class="text-base text-gray-600">/mês</span></p>
+          <ul class="text-left space-y-2 mb-6 text-sm">
+            <li>✔ Tudo do plano Essencial</li>
+            <li>✔ Emissão de nota fiscal integrada (sem Bling)</li>
+            <li>✔ Relatórios avançados</li>
+            <li>✔ Suporte técnico prioritário</li>
+          </ul>
+          <a href="#contato" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Contratar</a>
+        </div>
+
+        <!-- Plano Personalizado -->
+        <div class="border rounded-lg shadow p-6 bg-gray-50">
+          <h4 class="text-xl font-bold mb-2">Plano Personalizado</h4>
+          <p class="text-blue-600 text-lg font-semibold mb-4">Sob consulta</p>
+          <ul class="text-left space-y-2 mb-6 text-sm">
+            <li>✔ Para redes com 5+ quiosques</li>
+            <li>✔ Funcionalidades sob medida</li>
+            <li>✔ Treinamento e onboarding personalizados</li>
+            <li>✔ Dashboards com resumo das vendas</li>
+          </ul>
+          <a href="#contato" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Fale conosco</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="py-16 bg-blue-50">
+    <div class="max-w-2xl mx-auto px-4 text-center">
+      <h3 class="text-2xl font-bold mb-4">Interessado no QRize?</h3>
+      <p class="mb-6 text-gray-700">Entre em contato e receba uma demonstração gratuita.</p>
+      <a href="https://wa.me/5511961510757" class="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition">Solicitar Demonstração</a>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-gray-800 text-white py-4 text-center">
+    <p>&copy; 2025 QRize. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Botão Flutuante WhatsApp -->
+  <a href="https://wa.me/5511961510757" target="_blank" class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg z-50 transition">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16.72 11.06a4 4 0 01-5.657 5.657L7 21l1.586-4.063A8 8 0 1116.72 11.06z" />
+    </svg>
+  </a>
+
+</body>
+</html>
